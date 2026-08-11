@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FINdossier.nl – handleiding</title>
+<meta name="description" content="Handleiding voor FINdossier.nl: snel starten, opslaan en beveiligen, uitleg per tabblad en veelgestelde vragen.">
+<link rel="canonical" href="https://findossier.nl/handleiding.html">
+<meta name="robots" content="index,follow">
+<style>
+  :root{
+    --hb-blauw:#005C9E; --hb-blauw-d:#00426F; --hb-blauw-l:#E8F1F8;
+    --hb-oranje:#F39200; --hb-groen:#2E9E5B; --hb-rood:#C0392B;
+    --grijs-bg:#F4F6F8; --grijs-lijn:#D9E0E6; --tekst:#1E2A33; --tekst-zacht:#5C6B76;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:"Segoe UI",system-ui,Arial,sans-serif;background:var(--grijs-bg);color:var(--tekst);font-size:15px;line-height:1.55}
+  header{background:linear-gradient(100deg,var(--hb-blauw-d),var(--hb-blauw));color:#fff;padding:24px 28px;position:sticky;top:0;z-index:70;box-shadow:0 2px 12px rgba(0,0,0,.18);transition:padding .18s ease}
+  header.compact{padding:9px 28px}
+  header.compact h1{font-size:17px}
+  header.compact p:last-of-type{display:none}
+  header.compact p{margin-top:4px !important;font-size:13px}
+  header h1{font-size:22px;font-weight:600}
+  header p{opacity:.85;font-size:13px;margin-top:4px;max-width:760px}
+  .wrap{max-width:900px;margin:0 auto;padding:24px 24px 60px}
+  .kaart{background:#fff;border:1px solid var(--grijs-lijn);border-radius:10px;padding:20px 24px;margin-bottom:18px}
+  h2{font-size:16px;color:var(--hb-blauw);text-transform:uppercase;letter-spacing:.6px;font-weight:700;margin-bottom:10px}
+  h3{font-size:14.5px;color:var(--hb-blauw-d);margin:14px 0 4px}
+  p{margin-bottom:10px}
+  .kaart p:last-child{margin-bottom:0}
+  .melding{background:#FFF6E8;border:1px solid #F0D9AE;border-radius:8px;padding:12px 16px;font-size:13.5px;color:#7A5A1E;margin-bottom:18px}
+  .stap{display:flex;gap:14px;padding:10px 0;border-bottom:1px dashed #EDF1F4;align-items:flex-start}
+  .stap:last-child{border-bottom:none}
+  .stapnr{flex:none;width:28px;height:28px;border-radius:50%;background:var(--hb-blauw);color:#fff;font-weight:700;text-align:center;line-height:28px;font-size:14px}
+  .knopvb{display:inline-block;background:var(--hb-blauw-l);color:var(--hb-blauw);border-radius:6px;padding:2px 10px;font-size:13px;font-weight:600;white-space:nowrap}
+  .knopvb.oranje{background:#FDEBD3;color:#B26D00}
+  a{color:var(--hb-blauw)}
+  .toc{columns:2;column-gap:30px;font-size:14px}
+  .toc div{margin-bottom:5px;break-inside:avoid}
+  footer{font-size:12px;color:var(--tekst-zacht);margin-top:24px;line-height:1.5}
+  @media(max-width:640px){.toc{columns:1}}
+  @media print{
+    @page{size:A4;margin:16mm}
+    body{background:#fff;font-size:11.5px}
+    header{background:var(--hb-blauw);-webkit-print-color-adjust:exact;print-color-adjust:exact}
+    .kaart{border:none;padding:0 0 14px;break-inside:avoid}
+    .printknop{display:none}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>FINdossier.nl — handleiding</h1>
+  <p style="margin-top:10px"><a href="index.html" style="color:#fff;font-weight:600">← Homepage</a> &nbsp;·&nbsp; <a href="tool.html" style="color:#fff;font-weight:600">Start de tool →</a></p>
+  <p>FINdossier is je persoonlijke financiële dossier dat je één keer opbouwt en daarna jaarlijks bijwerkt — zelf, of samen met je adviseur. Zo weet jij altijd hoe je ervoor staat, en weten je nabestaanden waar alles te vinden is als jou iets overkomt.</p>
+</header>
+
+<div class="wrap">
+
+  <div class="melding">
+    <strong>Het allerbelangrijkste in één zin:</strong> FINdossier slaat niets automatisch op — klik na elke sessie op <span class="knopvb">Opslaan</span>, bewaar het bestand veilig (bij voorkeur met wachtwoord) en laad het de volgende keer weer in via <span class="knopvb">Uploaden</span>.
+  </div>
+
+  <section class="kaart">
+    <h2>Inhoud</h2>
+    <div class="toc">
+      <div>1. Wat is FINdossier?</div>
+      <div>2. Snel starten in vijf stappen</div>
+      <div>3. Opslaan, beveiligen en teruglezen</div>
+      <div>4. Tabblad Vermogen &amp; inkomen</div>
+      <div>5. Tabblad Familie &amp; schenkingen</div>
+      <div>6. Tabblad Overige verzekeringen</div>
+      <div>7. Tabblad Belangrijke personen</div>
+      <div>8. Tabblad Nalatenschapsdossier</div>
+      <div>9. Tabblad Wensen &amp; doelen</div>
+      <div>10. Tabblad Kompas</div>
+      <div>11. Jaren beheren</div>
+      <div>12. Afdrukken en adviseursrapport</div>
+      <div>13. Veelgestelde vragen</div>
+      <div>14. Wat FINdossier níet doet</div>
+    </div>
+  </section>
+
+  <section class="kaart">
+    <h2>1. Wat is FINdossier?</h2>
+    <p>FINdossier is één overzicht van je complete financiële leven: inkomen, vermogen, hypotheken, verzekeringen, familie, contactpersonen, nalatenschapszaken en toekomstwensen. Je bouwt het één keer op — bijvoorbeeld met je belastingaangifte, jaaropgaven en polissen ernaast — en werkt het daarna jaarlijks bij.</p>
+    <p>Het dossier heeft twee gezichten. Bij leven geeft het jou en je adviseur grip: je ziet per jaar hoe je vermogen zich ontwikkelt en of je doelen binnen bereik komen. En als jou iets overkomt, vinden je partner en kinderen op één plek wíe ze moeten bellen en wáár alles ligt.</p>
+    <p>De tool werkt volledig in je eigen browser. Er wordt niets naar een server gestuurd: alles wat je invult blijft op je eigen computer.</p>
+  </section>
+
+  <section class="kaart">
+    <h2>2. Snel starten in vijf stappen</h2>
+    <div class="stap"><div class="stapnr">1</div><div><strong>Vul de personen in.</strong> Namen, geboortedatums en de peildatum van de standen (meestal 1 januari). De AOW-datum wordt automatisch berekend uit de geboortedatum.</div></div>
+    <div class="stap"><div class="stapnr">2</div><div><strong>Pak je belastingaangifte erbij.</strong> Vul op het tabblad Vermogen &amp; inkomen de rekeningen, beleggingen, woning(en), hypotheken en overige posten in — met naam, nummer en tenaamstelling. De aangifte bevat vrijwel alle bedragen die je nodig hebt.</div></div>
+    <div class="stap"><div class="stapnr">3</div><div><strong>Loop de andere tabbladen langs.</strong> Verzekeringen met polisnummers, je belangrijke contactpersonen, het nalatenschapsdossier en je wensen. Alles wat je invult, verschijnt automatisch in de overzichten.</div></div>
+    <div class="stap"><div class="stapnr">4</div><div><strong>Exporteer je dossier.</strong> Klik op <span class="knopvb">Opslaan</span>, kies een wachtwoord en bewaar het bestand op een veilige plek. Leg in het Nalatenschapsdossier vast wáár het bestand staat en waar het wachtwoord te vinden is.</div></div>
+    <div class="stap"><div class="stapnr">5</div><div><strong>Werk jaarlijks bij.</strong> Na je aangifte: upload het bestand, klik op <span class="knopvb oranje">+ Jaar toevoegen</span> (het nieuwe jaar neemt alles over van het vorige), actualiseer de standen en sla opnieuw op.</div></div>
+  </section>
+
+  <section class="kaart">
+    <h2>3. Opslaan, beveiligen en teruglezen</h2>
+    <h3>Opslaan</h3>
+    <p>De knop <span class="knopvb">Opslaan</span> bewaart je complete dossier als één bestand (findossier.json). Je krijgt de vraag om een wachtwoord: vul je dat in, dan wordt het bestand versleuteld met AES-256 — zonder het wachtwoord is het niet te openen, ook niet door de maker van de tool. Laat je het wachtwoord leeg, dan is het bestand onversleuteld leesbaar. Gezien de inhoud (rekeningnummers, polissen, adressen) raden we versleuteling sterk aan.</p>
+    <h3>Uploaden</h3>
+    <p>Via <span class="knopvb">Uploaden</span> laad je een eerder opgeslagen bestand weer in. Bij een versleuteld bestand vraagt de tool om het wachtwoord.</p>
+    <h3>CSV</h3>
+    <p>De knop <span class="knopvb">CSV</span> maakt een spreadsheet-bestand van alle gegevens, handig om in Excel te bekijken. Let op: dit CSV-bestand is nooit versleuteld en is niet geschikt om weer te importeren — het is alleen een uitdraai.</p>
+    <h3>Automatisch bewaren in de browser (staat standaard aan)</h3>
+    <p>De tool bewaart alles automatisch op je eigen apparaat, inclusief al je dossiers — je kunt het venster dus gewoon sluiten en later verdergaan. Deze opslag is wel onversleuteld en alleen op dít apparaat beschikbaar: zet het vinkje "Bewaar automatisch in deze browser" uít op een gedeelde of openbare computer, en blijf opslaan als bestand: dat blijft je echte back-up. Vink je het uit, dan worden de gegevens direct uit de browser verwijderd.</p>
+    <h3>Meerdere dossiers</h3>
+    <p>Met de dossierbalk bovenaan beheer je meerdere dossiers naast elkaar — bijvoorbeeld je eigen dossier en dat van een ouder die je helpt. Elk dossier exporteert naar zijn eigen bestand. Met "Voorbeeld laden" open je een volledig fictief demodossier om alle functies te verkennen; dat kun je daarna gewoon weer verwijderen.</p>
+    <h3>Verwijderen en ongedaan maken</h3>
+    <p>Verwijder je per ongeluk een regel, familielid of zelfs een heel jaar? Onderin verschijnt tien seconden lang een knop "Ongedaan maken". De tool controleert daarnaast je invoer op kennelijke vergissingen (zoals een sterfdatum vóór een geboortedatum of een dubbel rekeningnummer) en toont die bovenaan als aandachtspunt.</p>
+    <h3>Waarschuwing bij het wegklikken</h3>
+    <p>Sluit je het venster terwijl er niet-geëxporteerde wijzigingen zijn (en automatisch bewaren uit staat), dan waarschuwt de browser. Die waarschuwing serieus nemen bespaart je een middag opnieuw invullen.</p>
+  </section>
+
+  <section class="kaart">
+    <h2>4. Tabblad Vermogen &amp; inkomen</h2>
+    <p>Het hart van het dossier. Per jaar leg je vast: inkomen uit werk en uitkeringen, de eigen woning (WOZ, eventueel marktwaarde en eigendomspercentage), bank- en spaartegoeden, beleggingen, B.V.'s, overig vastgoed met huurinkomsten, verstrekte leningen, kapitaalverzekeringen (KEW/SEW/BEW), pensioen en lijfrente, overige bezittingen (crypto, contant, voertuigen), risicoverzekeringen (ORV/AOV), hypotheken per leningdeel en overige schulden.</p>
+    <p>Bij elke post kun je de bron noteren (bijv. "aangifte 2024" of "UPO") en een notitie. De tenaamstelling (persoon 1, persoon 2, gezamenlijk of een B.V.) bepaalt in welke kolom van de samenvatting de post telt. Bezit op naam van een B.V. telt niet mee in het privévermogen en staat in een apart overzicht.</p>
+    <h3>Werkelijk rendement</h3>
+    <p>Bij bank, beleggingen, vastgoed en verstrekte leningen vul je ook de daadwerkelijk ontvangen rente, dividend, huur en de waardemutatie of het koersresultaat in (verlies als negatief bedrag). De samenvatting toont zo je totale werkelijke rendement per jaar.</p>
+    <h3>Fiscale claim</h3>
+    <p>Onderaan kun je één lump-sum bedrag invullen als inschatting van toekomstige of latente belastingclaims, over alle boxen heen. De tool rekent zelf géén belasting uit; dit bedrag komt van jou of je belastingadviseur en wordt als schuld op het totaal in mindering gebracht.</p>
+    <h3>Automatische overzichten</h3>
+    <p>Onder de invoer vind je: de samenvatting per persoon met het verschil t.o.v. vorig jaar en een cirkeldiagram van de bezitsverdeling, de vermogensmutatie-verklaring (waardoor groeide het vermogen: rendement, schenkingen, sparen), de vervaldata-tijdlijn (rentevastperiodes, einddatums, AOW-datums), het onderpandenoverzicht met overwaarde en LTV per pand, en grafieken van de vermogensopbouw door de jaren.</p>
+    <h3>Rekenhulp</h3>
+    <p>Bij kapitaalverzekeringen en pensioen zit een <strong>i</strong>-knop die een rekenhulp opent: daarmee bereken je indicatief de verwachte eindwaarde van een polis en de uitkering per jaar. De gebruikte formules staan er voluit bij. De opgave van je uitvoerder (UPO of mijnpensioenoverzicht.nl) is altijd leidend.</p>
+  </section>
+
+  <section class="kaart">
+    <h2>5. Tabblad Familie &amp; schenkingen</h2>
+    <p>Registreer eerst je <strong>relatie en samenlevingsvorm</strong>: huwelijk, geregistreerd partnerschap, samenlevingscontract of samenwonend zonder contract, met de datum en het vermogensregime (bijv. beperkte gemeenschap of huwelijkse voorwaarden). Een uitklapbaar overzicht legt de vier vormen in het kort uit — als algemene informatie; je notaris is leidend. De vorm en datum verschijnen op de partnerlijn in het schema.</p>
+    <p>Bouw daarna de <strong>familieboom</strong>: ouders per partner, (ex-)partners, kinderen, kleinkinderen en achterkleinkinderen, elk met geboorte- en eventuele sterfdatum (leeftijd wordt automatisch berekend) en een toelichting zoals beroep of rol. Koppel kinderen aan beide partners of aan één van beiden (bijv. uit een eerdere relatie), en kleinkinderen aan het juiste kind — het schema tekent dan echte ouder-kindlijnen: doorgetrokken voor gezamenlijke kinderen, gestippeld voor ex-partners en kinderen van één partner. Het schema wordt ook meegenomen in de afdrukken.</p>
+    <p>In het schenkingsregister houd je gedane schenkingen bij: datum, van wie, aan wie (kies een familielid of vul een andere ontvanger in), bedrag en soort. De tool telt automatisch op per ontvanger en per jaar. Let op: dit register is een eigen administratie — het is geen aangifte schenkbelasting en toetst niet aan vrijstellingen.</p>
+  </section>
+
+  <section class="kaart">
+    <h2>6. Tabblad Overige verzekeringen</h2>
+    <p>Alle schadeverzekeringen en overige polissen op één rij: inboedel, opstal, aansprakelijkheid, rechtsbijstand, uitvaart, auto, boot, ongevallen, zorg, fiets, reis en meer — met maatschappij, polisnummer, dekking, verzekerd bedrag, premie en vervaldatum. Het premie-overzicht telt de totale premie per soort op, per jaar en per maand. Vervaldatums verschijnen automatisch in de vervaldata-tijdlijn.</p>
+  </section>
+
+  <section class="kaart">
+    <h2>7. Tabblad Belangrijke personen</h2>
+    <p>Je financieel adviseur, notaris, huisarts, executeur testamentair, accountant en andere contactpersonen — met naam, adres, woonplaats, telefoon en e-mail. Ook familieleden horen hier thuis: met de knop "+ Familielid als contactpersoon" haal je ze rechtstreeks uit de familieboom, waarna je alleen nog het telefoonnummer aanvult. Vink bij de juiste personen "Nood" aan — familie of professional — en zij verschijnen bovenaan in het rood omkaderde blok "Wie bellen in nood".</p>
+  </section>
+
+  <section class="kaart">
+    <h2>8. Tabblad Nalatenschapsdossier</h2>
+    <p>Dit tabblad zorgt dat je nabestaanden weten waar alles ligt. Het bevat:</p>
+    <p><strong>Eerste stappen voor nabestaanden</strong> — een automatisch samengesteld stappenplan (huisarts, noodcontacten, uitvaartondernemer, notaris, executeur, werkgever, banken, abonnementen) dat de gegevens uit de andere tabbladen erbij pakt. Staat er "nog niet ingevuld", dan weet je meteen wat er nog mist.</p>
+    <p><strong>Toegang tot dit dossier</strong> — waar het exportbestand staat, waar het wachtwoord te vinden is en wie ervan weet. Zonder dit is de rest onbereikbaar op het moment dat het nodig is.</p>
+    <p><strong>Documentenregister</strong> — testament, levenstestament, huwelijkse voorwaarden en andere documenten: van wie, waar het ligt en wie het bewaart.</p>
+    <p><strong>Digitale nalatenschap</strong> — waar je partner de toegang vindt tot wachtwoordmanager, DigiD, crypto-wallets, cloud-opslag en bankieren-apps.</p>
+    <p><strong>Mobiele telefoons</strong> — hoe het toestel te openen is: per telefoon leg je vast wáár de toegangscode en de sim-pincode te vinden zijn (bijvoorbeeld "envelop in de kluis"). De telefoon is vaak de sleutel tot alles: sms-codes, authenticator-apps en e-mail.</p>
+    <p><strong>E-mailaccounts</strong> — per e-mailadres de provider, waar de toegang te vinden is en wat ermee moet gebeuren (opzeggen, tijdelijk behouden, doorsturen). E-mail is de toegangspoort tot vrijwel alle andere accounts.</p>
+    <p><strong>Social media</strong> — per profiel het platform, de gebruikersnaam en wat ermee moet gebeuren: verwijderen, herdenkingsstatus (kan o.a. bij Facebook en Instagram) of behouden.</p>
+    <p><strong>Uitvaartwensen</strong> per persoon en de <strong>abonnementenlijst</strong> met wat er opgezegd of overgezet moet worden.</p>
+    <p style="color:var(--hb-rood)"><strong>Gouden regel:</strong> noteer nooit wachtwoorden, pincodes of seed phrases in het dossier — alleen víndplaatsen ("in de wachtwoordmanager", "envelop in de kluis").</p>
+  </section>
+
+  <section class="kaart">
+    <h2>9. Tabblad Wensen &amp; doelen</h2>
+    <p>Alles wat je wilt bereiken: reizen, eerder stoppen met werken, een goed doel steunen, zorg of mantelzorg, studie van de kinderen, verbouwen. Per wens leg je vast: categorie, prioriteit, streefjaar (en eventueel een periode tot), het benodigde bedrag en wat je al hebt gereserveerd. Een voortgangsbalk toont hoe ver je bent; de kolom "sparen p/mnd" rekent indicatief uit wat er per maand nodig is tot het streefjaar.</p>
+    <p>De tijdlijn zet alle doelen uit in de tijd, met de AOW-datums van beide personen als referentielijnen. Zo zie je in één oogopslag of "eerder stoppen" vóór of ná je AOW-datum ligt.</p>
+    <p>Bovenaan het tabblad staat <strong>"In uw eigen woorden"</strong>: vrije ruimte voor wat niet in een tabel past — waarom deze doelen belangrijk zijn, afwegingen, wat je je gezin gunt. Deze tekst gaat mee in de export en de afdrukken.</p>
+    <p>Het losse tabblad <strong>Aantekeningen</strong> is je logboek bij het dossier: gesprekken met adviseur of notaris, besluiten en actiepunten, elk met datum en onderwerp, nieuwste bovenaan. Handig ritme: na elke jaarlijkse update één aantekening "Dossier herijkt" met wat er veranderd is.</p>
+  </section>
+
+  <section class="kaart">
+    <h2>10. Tabblad Kompas</h2>
+    <p>Het Kompas legt je doelen naast je cijfers. Het bestaat uit vijf onderdelen:</p>
+    <p><strong>Uitgaven en cashflow</strong> — vul je maandelijkse uitgaven in; de tool telt daar automatisch de maandlasten van je leningen, alle verzekeringspremies en de abonnementen bij op en zet dat naast je werkelijk ontvangen inkomen. Het verschil is je indicatieve vrije spaarruimte.</p>
+    <p><strong>Vermogensprojectie</strong> — een grafiek die je vermogen doorrekent naar de toekomst met je eigen aannames voor rendement en inleg (laat de inleg leeg om automatisch de spaarruimte te gebruiken). Je doelen en AOW-datums staan als referentie in de grafiek.</p>
+    <p><strong>Koers-dashboard</strong> — per doel: past het nog benodigde bedrag binnen het geprojecteerde vermogen in het streefjaar? Groen betekent "past binnen de projectie", oranje "past niet volledig". Dit is een rekenkundige vergelijking op basis van jóuw aannames — geen oordeel en geen advies.</p>
+    <p><strong>Scenario's</strong> — verken wat er gebeurt bij een ander rendement, als je inleg stopt (eerder stoppen met werken), bij een renteopslag op je hypotheek na de rentevastperiode, en het feitelijke overlijdensscenario: verzekerd ORV-kapitaal naast de hypotheekschuld, inclusief het geregistreerde partnerpensioen. De doelentoets rekent bovendien met je eigen inflatie-aanname, zodat een doel over vijftien jaar tegen het dan geldende prijspeil wordt vergeleken.</p>
+    <p><strong>Adviseursrapport</strong> — één knop maakt een compact rapport met kerncijfers, grafieken, projectie-aannames, doelen, scenario's en een automatisch samengestelde agenda voor het adviesgesprek. Neem het mee naar je adviseur.</p>
+    <p><strong>Tip:</strong> herijk het Kompas jaarlijks na je belastingaangifte en noteer de datum in het veld "Laatst herijkt". Een projectie op verouderde cijfers wijst de verkeerde kant op.</p>
+  </section>
+
+  <section class="kaart">
+    <h2>11. Jaren beheren</h2>
+    <p>Bovenaan het tabblad Vermogen &amp; inkomen staan de jaartabs. Met <span class="knopvb oranje">+ Jaar toevoegen</span> maak je een nieuw jaar aan dat alle gegevens van het vorige jaar overneemt — je hoeft daarna alleen de standen te actualiseren. Met <span class="knopvb">Jaar verwijderen</span> haal je het actieve jaar weg (na bevestiging; er blijft altijd minimaal één jaar staan). De peildatum per jaar geeft aan per welke datum de standen gelden.</p>
+    <p>Familie, verzekeringen, contactpersonen, het nalatenschapsdossier en de wensen gelden voor het hele dossier en hoeven dus niet per jaar opnieuw ingevuld te worden. Alleen de uitgaven op het Kompas-tabblad horen bij het actieve jaar.</p>
+  </section>
+
+  <section class="kaart">
+    <h2>12. Afdrukken en adviseursrapport</h2>
+    <p><span class="knopvb">Afdrukken</span> maakt een volledige uitdraai van het dossier (liggend A4), die opent met "In één oogopslag": een cirkeldiagram van de bezitsverdeling en een staafdiagram van het netto vermogen per jaar. Daarna volgen samenvatting, alle posten, onderpanden, het familieschema, familie, schenkingen, verzekeringen, contactpersonen, het complete nalatenschapsdossier, je wensen met de tekst "In eigen woorden" en tot slot je aantekeningen. De uitdraai heeft een verzorgde rapportopmaak — blauwe titelbanner, gekleurde sectiekoppen en nette tabellen — zodat hij direct geschikt is voor de kluis of het adviesgesprek. Print deze uitdraai en leg hem bij je testament of in de kluis — het is in feite je papieren nabestaandendocument.</p>
+    <p>De knop <span class="knopvb oranje">Adviseursrapport afdrukken</span> op het Kompas-tabblad maakt een compacter rapport met drie grafieken (bezitsverdeling, vermogensontwikkeling per jaar en cashflow), bedoeld om mee te nemen naar het adviesgesprek.</p>
+    <p>Opent het afdrukvenster niet? Sta dan pop-ups toe voor deze pagina; de tool gebruikt een apart venster om te kunnen printen.</p>
+  </section>
+
+  <section class="kaart">
+    <h2>13. Veelgestelde vragen</h2>
+    <h3>Waar staan mijn gegevens?</h3>
+    <p>Alleen in je browser, zolang de pagina open staat, en in de bestanden die je zelf exporteert. Er is geen server, geen account en geen cloud-opslag. Sluit je de pagina zonder te exporteren, dan zijn niet-geëxporteerde wijzigingen weg.</p>
+    <h3>Ik ben mijn exportwachtwoord kwijt. Wat nu?</h3>
+    <p>Dan is het versleutelde bestand niet meer te openen — door niemand. Dat is precies de bedoeling van de versleuteling. Heb je nog een oudere export of een onversleutelde kopie, gebruik die. Anders bouw je het dossier opnieuw op. Bewaar het wachtwoord daarom op een vindbare plek en leg die vast in het Nalatenschapsdossier.</p>
+    <h3>Kan ik het dossier samen met mijn partner invullen?</h3>
+    <p>Ja — het dossier is juist opgezet voor twee personen, met per post een tenaamstelling. Er kan wel maar één iemand tegelijk in hetzelfde bestand werken; wissel het exportbestand uit in plaats van tegelijk te typen.</p>
+    <h3>Zijn de berekende bedragen (maandlast, eindwaarde, projectie) exact?</h3>
+    <p>Nee, het zijn indicatieve rekenuitkomsten op basis van jouw invoer en aannames. Ze wijken af van werkelijke offertes, opgaven en uitkomsten. Voor exacte cijfers zijn je bank, verzekeraar en pensioenuitvoerder leidend.</p>
+    <h3>Berekent de tool mijn belasting?</h3>
+    <p>Nee, bewust niet. Belastingregels wijzigen jaarlijks en horen bij je aangifte en je belastingadviseur. Je kunt wel zelf één ingeschat bedrag als fiscale claim opnemen.</p>
+    <h3>De AOW-datum klopt niet of staat op "indicatief". Hoe zit dat?</h3>
+    <p>De tool rekent met de wettelijk vastgestelde AOW-leeftijden. Voor jongere geboortejaren is de AOW-leeftijd nog niet wettelijk vastgesteld; de tool toont dan de laatst bekende leeftijd met de markering "indicatief".</p>
+  </section>
+
+  <section class="kaart">
+    <h2>14. Wat FINdossier níet doet</h2>
+    <p>FINdossier is een registratie- en overzichtstool. Het geeft geen financieel, fiscaal of juridisch advies, doet geen aanbevelingen voor financiële producten, berekent geen belasting, toetst geen schenkingsvrijstellingen en geeft geen erfrechtelijke duiding. Alle projecties en scenario's zijn indicatieve rekenuitkomsten op basis van je eigen aannames.</p>
+    <p>Wil je advies over je hypotheek, vermogen of financiële planning? Bespreek je dossier dan met een onafhankelijke financieel adviseur. Nog geen adviseur? Vind er één via <a href="https://www.hypothecairplanner.nl/zoek-een-hypotheekadviseur-voor-het-beste-advies" target="_blank" rel="noopener">hypothecairplanner.nl</a>. FINdossier is online gratis te gebruiken; adviseurs kunnen de tool daarnaast kosteloos delen met hun klanten.</p>
+    <p class="printknop" style="margin-top:14px"><a href="#" onclick="window.print();return false;" style="font-weight:600">Deze handleiding afdrukken</a></p>
+  </section>
+
+  <footer>
+    FINdossier.nl is online gratis te gebruiken en wordt daarnaast kosteloos gedeeld via financieel adviseurs. Alle gegevens blijven op uw eigen computer; er vindt geen verzending naar een server plaats. Aan deze handleiding en de tool kunnen geen rechten worden ontleend.
+  </footer>
+</div>
+
+<script>
+(function(){
+  const hd = document.querySelector("header");
+  let compact = false;
+  window.addEventListener("scroll", ()=>{
+    const y = window.scrollY;
+    if(!compact && y > 90){ compact = true; hd.classList.add("compact"); }
+    else if(compact && y < 20){ compact = false; hd.classList.remove("compact"); }
+  }, {passive:true});
+})();
+</script>
+</body>
+</html>
