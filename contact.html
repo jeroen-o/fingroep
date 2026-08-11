@@ -44,7 +44,7 @@
   </style>
 </helmet>
 
-<nav style="background: #ffffff; border-bottom: 1px solid #e3ebf2; padding: 14px clamp(20px,5vw,48px); display: flex; align-items: center; gap: 18px; flex-wrap: wrap">
+<nav style="position: sticky; top: 0; z-index: 50; background: #ffffff; border-bottom: 1px solid #e3ebf2; box-shadow: 0 1px 6px rgba(11,46,79,0.06); padding: 14px clamp(20px,5vw,48px); display: flex; align-items: center; gap: 18px; flex-wrap: wrap">
   <a href="index.html" style="font-weight: 800; font-size: 21px; color: #005C9E; text-decoration: none">FIN<span style="color: #0b2e4f">groep</span>.nl</a>
   <button class="nav-toggle" onClick="{{ toggleNav }}" aria-label="Menu">Menu ☰</button>
   <div class="nav-links {{ navClass }}">

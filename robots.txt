@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://findossier.nl/sitemap.xml
+
+Sitemap: https://fingroep.nl/sitemap.xml
